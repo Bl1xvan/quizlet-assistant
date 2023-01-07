@@ -1,0 +1,29 @@
+:root {
+  --lightyellow: #f0f7d4;
+  --yellow: #b2d732;
+  --lightgreen: #66b032;
+  --lightblue: #347b98;
+  --transparentblue: rgba(64, 95, 107, 0.788);
+  --darkblue: #092834;
+}
+
+#main-table th,
+#main-table td {
+  box-shadow: 2.5px 2.5px var(--transparentblue);
+}
+
+#main-table th {
+  background-color: var(--darkblue);
+  color: var(--yellow);
+}
+
+#main-table td {
+  background-color: var(--lightyellow);
+  color: var(--lightblue);
+}
+
+.column-btn {
+  background-color: var(--lightblue);
+  color: var(--yellow);
+  box-shadow: 2.5px 2.5px var(--darkblue);
+}
